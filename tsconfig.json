@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "target": "es2016",
+      "sourceMap": true,
+      "outDir": "dist",
+      "rootDir": "./",
+      "baseUrl": "./",
+      "allowSyntheticDefaultImports": true,
+      "lib": [
+        "es2017",
+        "esnext.asynciterable"
+      ],
+      "paths": {
+      }
+    },
+    "include": [
+      "./src"
+    ],
+    "exclude": ["node_modules"],
+    "compileOnSave": false
+  }
+  
